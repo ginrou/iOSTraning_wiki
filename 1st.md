@@ -68,3 +68,5 @@ MixiSampleClass.m
 # UIViewController Class
 
 参考 : [UIViewController Class Reference](http://developer.apple.com/library/ios/#documentation/uikit/reference/UIViewController_Class/Reference/Reference.html)
+
+## life cycle
