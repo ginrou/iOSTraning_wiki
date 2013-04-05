@@ -1,4 +1,3 @@
-# iOS Training Course Repository
 iOSアプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
 
 # 構成
