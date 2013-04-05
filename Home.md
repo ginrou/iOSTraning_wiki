@@ -1,1 +1,9 @@
-Welcome to the iOSTraining wiki!
+h1. iOS Training Course Repository
+iOSアプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
+
+h1. 構成
+このトレーニングコースは、下記のカリキュラムで構成されています。カリキュラムは予告無く変更される場合があります。
+なお、本カリキュラムは iPhone simulator で確認できる範囲のものになっております。
+
+1. 導入
+
