@@ -1,7 +1,7 @@
-1st
-# 導入
+1st 導入
+# Objecticve-C の基本
 
-
+[Objective-C プログラミング](https://developer.apple.com/jp/devcenter/ios/library/documentation/ObjC.pdf)
 ## object 生成
 `NSObject *obj = [[NSObject alloc] init];`
 ## method
