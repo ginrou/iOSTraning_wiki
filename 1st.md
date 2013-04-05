@@ -2,13 +2,13 @@
 # 導入
 
 
-### object 生成
+## object 生成
 `NSObject *obj = [[NSObject alloc] init];`
-### method
+## method
 `[obj exeWithArg1:hoge arg2:fuga]`
 
 Objective C にはメッソドにラベルがある。
-### クラスの作成
+## クラスの作成
 MixiSampleClass.h, m を作成。
 
 MixiSampleClass.h
@@ -35,7 +35,7 @@ MixiSampleClass.m
 {
     self = [super init];
     if(self){
-        _name = name; /// [4]
+        _name = name; /// [4]　access to ivar
     }
     return self;
 }
@@ -46,16 +46,19 @@ MixiSampleClass.m
 }
 @end
 ```
-### [1] property 宣言
+## [1] property 宣言
 - name というインスタンス変数を持っている（自動的に生成）
 - nonatmic : 排他制御
 - strong : オーナーシップをもっている
 - -setName, -getName という getter, setter を自動的に生成。（getter=hoge, setter=fuga）と明示的に命名することも可能
 
-### [2] 
+### [2] instance method
 インスタンスメソッドには - をつけて宣言
 
-### [3]
+### [3] class method
 クラスメソッドには + をつけて宣言
 
-### [4]
+### [4] access to ivar
+- 自クラス内のインスタンス変数を参照、代入するときは _name = hoge, fuga = _name (self.name も可)
+- 他クラスのインスタンス変数の場合は obj.name
+
