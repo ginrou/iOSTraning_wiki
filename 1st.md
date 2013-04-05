@@ -61,3 +61,6 @@ MixiSampleClass.m
 - 自クラス内のインスタンス変数を参照、代入するときは _name = hoge, fuga = _name (self.name も可)
 - 他クラスのインスタンス変数の場合は obj.name
 
+# Foundation Frameworks
+
+参考 : [Foundation Frameworks](https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/ObjC_classic/_index.html)
