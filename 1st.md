@@ -46,7 +46,7 @@ MixiSampleClass.m
 }
 @end
 ```
-## [1] property 宣言
+### [1] property 宣言
 - name というインスタンス変数を持っている（自動的に生成）
 - nonatmic : 排他制御
 - strong : オーナーシップをもっている
