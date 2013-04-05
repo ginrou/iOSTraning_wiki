@@ -1,6 +1,5 @@
 1st 導入
 # Objecticve-C の基本
-
 参考 : [Objective-C プログラミング](https://developer.apple.com/jp/devcenter/ios/library/documentation/ObjC.pdf)
 ## object 生成
 `NSObject *obj = [[NSObject alloc] init];`
@@ -48,7 +47,7 @@ MixiSampleClass.m
 ```
 ### [1] property 宣言
 - name というインスタンス変数を持っている（自動的に生成）
-- nonatmic : 排他制御
+- nonatmic : 排他制御しない
 - strong : オーナーシップをもっている
 - -setName, -getName という getter, setter を自動的に生成。（getter=hoge, setter=fuga）と明示的に命名することも可能
 
