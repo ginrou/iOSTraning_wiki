@@ -1,6 +1,7 @@
 1st
 # 導入
 
+
 ### object 生成
 `NSObject *obj = [[NSObject alloc] init];`
 ### method
@@ -16,10 +17,10 @@ MixiSampleClass.h
 
 @interface MixiSampleClass : NSObject
 
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *name; /// [1] property
 
--(id)initWithName:(NSString *)name;
-+(NSString *) getClassName;
+-(id)initWithName:(NSString *)name; /// [2] instance method
++(NSString *) getClassName; /// [3] class method
 
 @end
 ```
@@ -34,7 +35,7 @@ MixiSampleClass.m
 {
     self = [super init];
     if(self){
-        _name = name;
+        _name = name; /// [4]
     }
     return self;
 }
@@ -45,3 +46,16 @@ MixiSampleClass.m
 }
 @end
 ```
+### [1] property 宣言
+- name というインスタンス変数を持っている（自動的に生成）
+- nonatmic : 排他制御
+- strong : オーナーシップをもっている
+- -setName, -getName という getter, setter を自動的に生成。（getter=hoge, setter=fuga）と明示的に命名することも可能
+
+### [2] 
+インスタンスメソッドには - をつけて宣言
+
+### [3]
+クラスメソッドには + をつけて宣言
+
+### [4]
