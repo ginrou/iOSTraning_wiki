@@ -78,7 +78,9 @@ MVC の C。View の表示と管理を行う部分。
 
 ## <a name="UIVC1">コンテンツを表示させる
 UIView や UIViewController は .nib ファイルが使用可能。nib ファイルは GUI でレイアウトが出来る。
-cmd+n -> Objective-C Class -> With XIB for user interface
+
+### UIViewController の初期化
+まず、新規クラスファイルを生成。cmd+n -> Objective-C Class -> With XIB for user interface
 「いめーじ」
 
 MixiSampleViewController を初期化
@@ -87,6 +89,8 @@ MixiSampleViewController *sampleVC = [[MixiSampleViewController alloc] initWithN
 ```
 
 ### XIB
+上記の初期化で、xib のロードが開始されます。
+
 - iOS 6 限定の autolayout のチェックは外しましょう
 「いめーじ」
 - View の初期設定は各 inspector で済ませましょう
@@ -115,4 +119,7 @@ addSubView
 addSubView
 ```
 
+- IBOutlet を設定しましょう
+xib 上の UIView component と実装ファイルをつなげてます。
+「いめーじ」
 ## life cycle 
