@@ -6,9 +6,9 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
 
 1. 導入
  * [Objective C の基礎](https://github.com/mixi-inc/iOSTraining/wiki/1.1-Objective-C-%E3%81%AE%E5%9F%BA%E7%A4%8E)
- * [メモリ管理（ARC、オーナーシップ)]()
- * [代表的な Foundation Frameworks](https://github.com/mixi-inc/iOSTraining/wiki/%E4%BB%A3%E8%A1%A8%E7%9A%84%E3%81%AA-Foundation-Frameworks)
- * [UIViewController](https://github.com/mixi-inc/iOSTraining/wiki/UIViewController)
+ * [メモリ管理（ARC、オーナーシップ)](https://github.com/mixi-inc/iOSTraining/wiki/1.2-%E3%83%A1%E3%83%A2%E3%83%AA%E7%AE%A1%E7%90%86)
+ * [代表的な Foundation Frameworks](https://github.com/mixi-inc/iOSTraining/wiki/1.3-%E4%BB%A3%E8%A1%A8%E7%9A%84%E3%81%AA-Foundation-Frameworks)
+ * [UIViewController](https://github.com/mixi-inc/iOSTraining/wiki/1.4-UIViewController)
 2. UIKit 1 - container -
  - UINavigationController について
  - UITabBarController について
