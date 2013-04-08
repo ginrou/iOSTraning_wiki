@@ -100,7 +100,6 @@ MixiSampleViewController *sampleVC = [[MixiSampleViewController alloc] initWithN
 「イメージ」
 コードでも書くことが出来ます。
 ```objective-c
-addSubView
 ```
 
 - View の階層関係に意識しましょう
@@ -108,7 +107,6 @@ addSubView
 
 コードでも書くことが出来ます。
 ```objective-c
-addSubView
 ```
 「イメージ」
 - autosizing を活用しましょう
@@ -116,10 +114,51 @@ addSubView
 
 コードでも書くことが出来ます。
 ```objective-c
-addSubView
 ```
 
 - IBOutlet を設定しましょう
-xib 上の UIView component と実装ファイルをつなげてます。
-「いめーじ」
-## life cycle 
+xib 上の UIView component と実装ファイルをつなげてます。「いめーじ」*2
+
+- IBAction を設定しましょう
+
+### ViewDidLoad
+ビューに表示する データの割り当てや ロードを行う。ViewController の生成と同時に一度だけ呼ばれる。
+```objective-c
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+```
+
+view 関連のレイアウトのコードを書くのはこのメソッド以降に書かないと反映されない。
+
+### viewWillAppear, viewDidAppear, viewWillDisappear, viewDidDisappear
+view 表示、非表示毎に呼ばれるメソッド
+
+```objective-c
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    NSLog(@"viewWillAppear");
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    NSLog(@"viewDidAppear");
+}
+
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    NSLog(@"viewWillDisappear");
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    NSLog(@"viewDidDisappear");
+}
+```
