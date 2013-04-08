@@ -131,6 +131,7 @@ xib 上の UIView component と実装ファイルをつなげてます。「い�
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSLog(@"viewDidLoad");
 }
 ```
 
