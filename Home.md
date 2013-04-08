@@ -4,8 +4,8 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
 このトレーニングコースは、下記のカリキュラムで構成されています。カリキュラムは予告無く変更される場合があります。
 なお、本カリキュラムは iPhone simulator で確認できる範囲のものになっております。
 
-1. [導入](https://github.com/mixi-inc/iOSTraining/wiki/1st)
- * Objective C の基礎
+1. 導入
+ * [Objective C の基礎](https://github.com/mixi-inc/iOSTraining/wiki/Objective-C-%E3%81%AE%E5%9F%BA%E7%A4%8E)
  * クラス
  * メモリ管理（ARC、オーナーシップ)
  * カテゴリ
