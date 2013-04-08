@@ -100,6 +100,7 @@ MixiSampleViewController *sampleVC = [[MixiSampleViewController alloc] initWithN
 「イメージ」
 コードでも書くことが出来ます。
 ```objective-c
+hoge
 ```
 
 - View の階層関係に意識しましょう
@@ -107,6 +108,7 @@ MixiSampleViewController *sampleVC = [[MixiSampleViewController alloc] initWithN
 
 コードでも書くことが出来ます。
 ```objective-c
+fuga
 ```
 「イメージ」
 - autosizing を活用しましょう
@@ -114,6 +116,7 @@ MixiSampleViewController *sampleVC = [[MixiSampleViewController alloc] initWithN
 
 コードでも書くことが出来ます。
 ```objective-c
+piyo
 ```
 
 - IBOutlet を設定しましょう
