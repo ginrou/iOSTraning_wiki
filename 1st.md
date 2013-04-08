@@ -80,7 +80,8 @@ MVC の C。View の表示と管理を行う部分。
 UIView や UIViewController は .nib ファイルが使用可能。nib ファイルは GUI でレイアウトが出来る。
 
 ### UIViewController の初期化
-まず、新規クラスファイルを生成。cmd+n -> Objective-C Class -> With XIB for user interface
+まず、新規クラスファイルを生成。MixiSampleViewController。
+cmd+n -> Objective-C Class -> With XIB for user interface
 「いめーじ」
 
 MixiSampleViewController を初期化
@@ -164,5 +165,14 @@ view 表示、非表示毎に呼ばれるメソッド
 {
     [super viewDidDisappear:animated];
     NSLog(@"viewDidDisappear");
+}
+```
+
+### dealloc
+オブジェクトが誰からも参照されなくなり、メモリから解放されるときに呼ばれる
+```bojective-c
+-(void)dealloc
+{
+    NSLog(@"dealloc");
 }
 ```
