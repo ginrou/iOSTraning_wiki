@@ -81,15 +81,19 @@ UIView や UIViewController は .nib ファイルが使用可能。nib ファイ
 cmd+n -> Objective-C Class -> With XIB for user interface
 「いめーじ」
 
+MixiSampleViewController を初期化
+```objective-c
+MixiSampleViewController *sampleVC = [[MixiSampleViewController alloc] initWithNibName:@"MixiSampleViewController" bundle:nil];
+```
+
 ### XIB
 - iOS 6 限定の autolayout のチェックは外しましょう
 「いめーじ」
-
 - View の初期設定は各 inspector で済ませましょう
--- attribute inspector で各属性を
--- size inspector でレイアウトを
-「イメージ」
+ - attribute inspector で各属性を
+ - size inspector でレイアウトを
 
+「イメージ」
 コードでも書くことが出来ます。
 ```objective-c
 addSubView
