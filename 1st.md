@@ -72,8 +72,11 @@ MixiSampleClass.m
 MVC の C。View の表示と管理を行う部分。
 
 # UIViewController の役割
-- コンテンツを表示させる
-- 複数の UIViewController を管理するコンテナ
-- ユーザの操作のなかに一時的に割り込む Modal
+- [**コンテンツを表示させる**](#UIVC1) 
+- 複数の UIViewController を管理するコンテナ [2nd]
+- **ユーザの操作のなかに一時的に割り込む Modal** [link]
+
+## <a name="UIVC1">コンテンツを表示させる
+
 
 ## life cycle
