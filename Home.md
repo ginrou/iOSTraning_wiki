@@ -6,9 +6,7 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
 
 1. 導入
  * [Objective C の基礎](https://github.com/mixi-inc/iOSTraining/wiki/Objective-C-%E3%81%AE%E5%9F%BA%E7%A4%8E)
- * クラス
  * メモリ管理（ARC、オーナーシップ)
- * カテゴリ
  * 代表的な Foundation Frameworks
  * UIViewController
 2. UIKit 1 - container -
