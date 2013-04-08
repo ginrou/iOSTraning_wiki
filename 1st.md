@@ -69,5 +69,11 @@ MixiSampleClass.m
 
 参考 : [UIViewController Class Reference](http://developer.apple.com/library/ios/#documentation/uikit/reference/UIViewController_Class/Reference/Reference.html) | [ViewController プログラミングガイド](https://developer.apple.com/jp/devcenter/ios/library/documentation/ViewControllerPGforiPhoneOS.pdf)
 
+MVC の C。View の表示と管理を行う部分。
+
+# UIViewController の役割
+- コンテンツを表示させる
+- 複数の UIViewController を管理するコンテナ
+- ユーザの操作のなかに一時的に割り込む Modal
 
 ## life cycle
