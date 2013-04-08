@@ -77,6 +77,38 @@ MVC の C。View の表示と管理を行う部分。
 - **ユーザの操作のなかに一時的に割り込む Modal** [link]
 
 ## <a name="UIVC1">コンテンツを表示させる
+UIView や UIViewController は .nib ファイルが使用可能。nib ファイルは GUI でレイアウトが出来る。
+cmd+n -> Objective-C Class -> With XIB for user interface
+「いめーじ」
 
+### XIB
+- iOS 6 限定の autolayout のチェックは外しましょう
+「いめーじ」
 
-## life cycle
+- View の初期設定は各 inspector で済ませましょう
+-- attribute inspector で各属性を
+-- size inspector でレイアウトを
+「イメージ」
+
+コードでも書くことが出来ます。
+```objective-c
+addSubView
+```
+
+- View の階層関係に意識しましょう
+どの View に add するのか。
+
+コードでも書くことが出来ます。
+```objective-c
+addSubView
+```
+「イメージ」
+- autosizing を活用しましょう
+「いめーじ」
+
+コードでも書くことが出来ます。
+```objective-c
+addSubView
+```
+
+## life cycle 
