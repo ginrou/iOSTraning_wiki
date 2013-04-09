@@ -28,20 +28,20 @@
  2. Blocks
  3. GCD
 7. View アニメーション、回転対応
- 1 View animation
- 2 Core animation
- 3 lotate
+ 1. View animation
+ 2. Core animation
+ 3. lotate
 8. ローカルキャッシュ
- 1 UserDefaults
- 2 FileManager
- 3 CoreData
- 4 SQLite
+ 1. UserDefaults
+ 2. FileManager
+ 3. CoreData
+ 4. SQLite
 9. Instruments
- 1 leak
- 2 time profiler
+ 1. leak
+ 2. time profiler
 10. その他
- 1 単体テスト (GHUnit)
- 2 結合テスト (KIF)
- 3 cocoaPods でライブラリ管理
+ 1. 単体テスト (GHUnit)
+ 2. 結合テスト (KIF)
+ 3. cocoaPods でライブラリ管理
 
 [edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
