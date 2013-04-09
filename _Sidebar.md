@@ -2,7 +2,7 @@
  * [Objective C の基礎](https://github.com/mixi-inc/iOSTraining/wiki/1.1-Objective-C-%E3%81%AE%E5%9F%BA%E7%A4%8E)
  * [メモリ管理](https://github.com/mixi-inc/iOSTraining/wiki/1.2-%E3%83%A1%E3%83%A2%E3%83%AA%E7%AE%A1%E7%90%86)
  * [代表的な Foundation Frameworks](https://github.com/mixi-inc/iOSTraining/wiki/1.3-%E4%BB%A3%E8%A1%A8%E7%9A%84%E3%81%AA-Foundation-Frameworks)
- * [UIViewController1 - UIViewController のカスタマイズ ](https://github.com/mixi-inc/iOSTraining/wiki/1.4-UIViewController)
+ * [UIViewController1 - UIViewController のカスタマイズ ](https://github.com/mixi-inc/iOSTraining/wiki/1.4-UIViewController1---UIViewController-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA#wiki-UIVC_lifecycle)
  * [UIViewController2 - ModalViewController](https://github.com/mixi-inc/iOSTraining/wiki/1.5-UIViewController2---ModalViewController)
  * [UIViewController3 - ライフサイクル](https://github.com/mixi-inc/iOSTraining/wiki/1.6-UIViewController3---%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB)
 2. UIKit 1 - container -
