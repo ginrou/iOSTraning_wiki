@@ -41,3 +41,5 @@
  - 単体テスト (GHUnit)
  - 結合テスト (KIF)
  - cocoaPods でライブラリ管理
+
+[edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
