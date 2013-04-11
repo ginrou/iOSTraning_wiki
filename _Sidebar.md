@@ -7,7 +7,7 @@
  6. [UIViewController3 - ライフサイクル](https://github.com/mixi-inc/iOSTraining/wiki/1.6-UIViewController3---%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB)
 2. UIKit 1 - container -
  1. [UINavigationController](https://github.com/mixi-inc/iOSTraining/wiki/2.1-UINavigationController)
- 2. UITabBarController について
+ 2. [UITabController](https://github.com/mixi-inc/iOSTraining/wiki/2.2-UITabController)
  3. childViewController について
 3. UIKit 2 - table view -
  1. UITableView について
