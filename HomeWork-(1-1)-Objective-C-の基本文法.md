@@ -121,23 +121,27 @@ if(obj) { // always fales
 
 
 # 課題
-## 課題1
-以下のデータ構造を上記オブジェクトなどを使って再現してください。
+## 課題1 基本的なデータ構造
+以下のデータ構造を持つオブジェクトを上記オブジェクトなどを使って再現してください。(クラス化などはしなくても結構です)
 ```
 (
   {
-     domain => "mixi.jp";
+     domain => "mixi.jp"
      entry  => ("list_voice.pl", "list_diary.pl", "list_mymall_item.pl" )
-    },
-    {
-     domain = "mmall.jp";
-     entry => ( {
-          path => "add_diary.pl"
-          query = ( { "tag_id" = 7 }  )
-        } )
-    },
-    {
-      domain = "itunes.apple.com";
-    }
+  },
+  {
+    domain = "mmall.jp"
+    entry => (
+      {
+        path => "add_diary.pl"
+        query = (
+          { "tag_id" = 7 }
+        )
+      }
+    )
+  },
+  {
+    domain = "itunes.apple.com"
+  }
 )
 ```
