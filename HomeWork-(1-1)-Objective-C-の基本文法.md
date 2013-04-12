@@ -118,3 +118,26 @@ if(obj) { // always fales
 - 全てのクラスを表すことのできる、汎用的な型。
 - Cなどのvoid型に通じる物があると思います。
 
+
+
+# 課題
+## 課題1
+以下のデータ構造を上記オブジェクトなどを使って再現してください。
+```
+(
+  {
+     domain => "mixi.jp";
+     entry  => ("list_voice.pl", "list_diary.pl", "list_mymall_item.pl" )
+    },
+    {
+     domain = "mmall.jp";
+     entry => ( {
+          path => "add_diary.pl"
+          query = ( { "tag_id" = 7 }  )
+        } )
+    },
+    {
+      domain = "itunes.apple.com";
+    }
+)
+```
