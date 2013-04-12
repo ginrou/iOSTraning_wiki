@@ -35,7 +35,7 @@ array[0] = hogehoge; // 代入は無理
 NSMutableArray *mutableArray = [NSMutableArray array]; // mutable
 [mutableArray addObject:hoge]; //mutableArrayの末尾にhogeを追加 ( mutableArray = @[hoge] )
 [mutableArray addObject:fuga]; //                   fugaを追加 ( mutableArray = @[hoge, fuga] )
-[mutableArray removeObjectAtIndex:)]; // 先頭のオブジェクトを削除 ( mutableArray = @[fuga] )
+[mutableArray removeObjectAtIndex:0)]; // 先頭のオブジェクトを削除 ( mutableArray = @[fuga] )
 ```
 
 ###  NSDictionary
@@ -62,6 +62,7 @@ mutableDict[@"key"] = nil; // nilを代入するとクラッシュします。
 - 文字列型。よく使う
 - 様々なインスタンス方法があるが、 ``@"hogefuga"`` @マーク＋ダブルクオーテーションで括る形が一般的
 - 後から改変する場合は NSMutableStringを使う
+- 正規表現はNSRegularExpressionを使います。
 ```
 NSString *str = @"hoge fuga";
 NSMutableString *mutable = [NSMutableString string];
@@ -85,10 +86,34 @@ NSNumber *num = @YES; // YES, NO などもキャスト可能
 ```
 
 ###  NSData, NSURL, NSError, NSSet...
-その他のデータ型は適宜場所場所で使います
+その他のデータ型はいろいろありますが、説明しきれないので参考図書なりググるなりお願いします。
 
 
-# NSObject, nil
+# NSObject, nil, id型
+特殊なオブジェクト型など
+
+### NSObject
+単一継承のみのObjective Cにおけるルートのオブジェクト。全てのオブジェクトはNSObjectを継承している。
+簡単なモデルとかを作る時の親クラスに使うことなどが多いです。
+
+時々使うメソッド
+- `performSelector:withObject:afterDelay:` : delayを指定して遅延実行する
+
+### nil
+- 未初期化のオブジェクトでnullのクラスオブジェクト。何もないことを表す。NULLと同じようなものです
+- 条件判断ではNOを返す
+- nilオブジェクトのメソッドを呼び出しても握りつぶされます。(クラッシュなどはしません)
+```
+id obj = nil;
+if(obj) { // always fales
+ // do not come here
+} else {
+  // come here
+}
+
+[obj method]; // クラッシュはしませんが、何も起きません
+```
+
 
 
 # コーディング規約など
