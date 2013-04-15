@@ -7,7 +7,7 @@
 2. UIKit 1 - container -
  1. [UINavigationController](https://github.com/mixi-inc/iOSTraining/wiki/2.1-UINavigationController)
  2. [UITabController](https://github.com/mixi-inc/iOSTraining/wiki/2.2-UITabController)
- 3. childViewController について
+ 3. [Custom Container View Controller](https://github.com/mixi-inc/iOSTraining/wiki/2.3-Custom-Container-View-Controller)
 3. UIKit 2 - table view -
  1. UITableView について
  2. UITableViewDelegate, UITableViewDatasource について
