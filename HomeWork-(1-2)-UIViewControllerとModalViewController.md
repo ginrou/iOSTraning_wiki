@@ -9,3 +9,9 @@ UIViewControllerとUIModalViewControllerを使った課題です。
 
 
 ### イメージ
+![遷移イメージ](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/1-2-1.jpg)
+
+### 目的
+- UIViewControllerを作れるようになる
+- ModalViewを表示させることができるようになる
+- delegateパターンを実装できるようになる　
