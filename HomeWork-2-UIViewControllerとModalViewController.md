@@ -14,7 +14,13 @@ UIViewControllerとUIModalViewControllerを使った課題です。
 ### イメージ
 ![遷移イメージ](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/1-2-1.jpg)
 
+### 少しだけ解説
+dismissViewControllerにはcompletitionBlockという引数があります。
+この引数には、モーダルが閉じきった時に実行するクロージャ(Blocks)を渡します。Blocksについては、また後日解説がありますが、
+「完了時に実行したい処理」を書けば問題ありません。
+
 ### 目的
 - UIViewControllerを作れるようになる
 - ModalViewを表示させることができるようになる
-- delegateパターンを実装できるようになる　
+- delegateパターンを実装できるようになる
+- completitionBlockが使えるようになる
