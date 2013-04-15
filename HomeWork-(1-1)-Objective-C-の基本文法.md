@@ -145,3 +145,17 @@ if(obj) { // always fales
   }
 )
 ```
+目的:NSDictionary, NSArrayの使い方に慣れる.
+
+時間があれば:Mutableなクラスを使って、適宜addObjectやremoveObjectなどを行ってみてください
+
+## 課題２ クラスの作成
+NSMutableArrayを用いて、キューを実現するクラス TestQueue と スタックを実現する TestStackを作ってください。
+それぞれ、以下のメソッドを追加してください
+- `- (void)push:(id)object` オブジェクトを追加する。(TestQueueの場合は末尾に、TestStackの場合は先頭に追加する)
+- `- (id)pop` 先頭のオブジェクトを返す
+- `- (NSInteger)size` Queue, Stack の長さを返す
+
+目的：クラスの作り方について学ぶ
+
+時間があれば:優先度付きキューを作ってみてください
