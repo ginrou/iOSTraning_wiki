@@ -39,12 +39,12 @@ NSMutableArray *mutableArray = [NSMutableArray array]; // mutable
 ```
 
 ###  NSDictionary
-  - 配列型、辞書型
-  - NSArrayと同様にオブジェクトは何でも代入できる。プリミティブなintなどはできない
+  - 辞書型
+  - NSArrayと同様にオブジェクトは何でも代入できる。プリミティブなintなどは代入できない
   - キー名はNSStringで指定
   - インスタンス化 `` @{key : value} ``
   - インスタンス化後の改変は不可
-  - 事後改変可能な配列はNSMutableDictionary型
+  - 事後改変可能な辞書はNSMutableDictionary型
 ```
 NSDictionary *dict = @{ @"key" : value}; // インスタンス化. valueは適当なオブジェクト
 id obj = dict[@"key"]; // 0番目のオブジェクトを取り出す( obj = value )
@@ -60,7 +60,7 @@ mutableDict[@"key"] = nil; // nilを代入するとクラッシュします。
 
 ###  NSString (文字列)
 - 文字列型。よく使う
-- 様々なインスタンス方法があるが、 ``@"hogefuga"`` @マーク＋ダブルクオーテーションで括る形が一般的
+- 様々なインスタンス方法があるが、 ``@"hogefuga"`` @＋ダブルクオーテーションで括る形が一般的
 - 後から改変する場合は NSMutableStringを使う
 - 正規表現はNSRegularExpressionを使います。
 ```
@@ -77,11 +77,13 @@ NSLog(@"%@", string); // "1 + 2 = 3"
 - 数値をラップしたデータ型です
 - NSArrayやDictionaryにint型などを持たせたい時などに使います
 - @1, @2, などでインスタンス化できます
-- int型、double型にキャストしたい時は`[number intValue], [number doubleValue]`のように使います
+- int型、double型に変換したい時は`[number intValue], [number doubleValue]`のように使います
 ```
 NSNumber *number = @1;
 NSArray *array = @[number, @2]; //直接intなどを代入できないが、NSNumberでラップしたら使える
 NSNumber *num = @YES; // YES, NO などもキャスト可能
+
+int a = [number intValue]; // int型へ変換
 
 ```
 
