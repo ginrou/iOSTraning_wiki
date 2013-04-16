@@ -14,6 +14,8 @@ UIViewControllerとUIModalViewControllerを使った課題です。
 ### イメージ
 ![遷移イメージ](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/1-2-1.png)
 
+見づらい場合はこちらを→[https://github.com/mixi-inc/iOSTraining/blob/master/Doc/Images/HomeWork/1-2-1.png](https://github.com/mixi-inc/iOSTraining/blob/master/Doc/Images/HomeWork/1-2-1.png)
+
 ### 少しだけ解説
 dismissViewControllerにはcompletitionBlockという引数があります。
 この引数には、モーダルが閉じきった時に実行するクロージャ(Blocks)を渡します。Blocksについては、また後日解説がありますが、
