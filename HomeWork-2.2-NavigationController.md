@@ -10,8 +10,7 @@ UINavigationControllerとボタンのカスタマイズと、popToRootViewContro
 
 
 ## イメージ
-あとではる
-
+![画像](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/2-2-1.png)
 
 ## ヒント、注意点など
 - 右上のボタンは`self.navigationItem setRightBarButtonItem:`でセットできます。渡す引数はUIBarButtonItem型です
