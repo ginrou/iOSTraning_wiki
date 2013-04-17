@@ -46,3 +46,7 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
  - 単体テスト (GHUnit)
  - 結合テスト (KIF)
  - cocoaPods でライブラリ管理
+
+
+# 宿題
+こちらへ→[HomeWork](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork)
