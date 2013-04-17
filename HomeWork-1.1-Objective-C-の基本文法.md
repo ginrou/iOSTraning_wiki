@@ -132,18 +132,18 @@ if(obj) { // always fales
      entry  => ("list_voice.pl", "list_diary.pl", "list_mymall_item.pl" )
   },
   {
-    domain = "mmall.jp"
+    domain => "mmall.jp"
     entry => (
       {
         path => "add_diary.pl"
-        query = (
-          { "tag_id" = 7 }
+        query => (
+          { "tag_id" => 7 }
         )
       }
     )
   },
   {
-    domain = "itunes.apple.com"
+    domain => "itunes.apple.com"
   }
 )
 ```
