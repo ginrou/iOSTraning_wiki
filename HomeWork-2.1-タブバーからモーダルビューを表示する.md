@@ -9,8 +9,7 @@ UITabControllerとModalViewControllerを合わせ技で使ってみましょう
   - モーダルを閉じるdelegateは実装してもしなくても構いません(サンプルではdelegateがセットしてなかったら自殺するようにしてます)
 
 ### イメージ
-あとで各
-
+![モーダルを表示](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/2-1-1.png)
 
 ### ヒント
 - UITabBarControllerのdelegateをセットすると、タブのボタンをタップした時に`- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController` が呼ばれます。
