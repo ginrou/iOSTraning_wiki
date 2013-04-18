@@ -51,6 +51,13 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
  2. 結合テスト (KIF)
  3. cocoaPods でライブラリ管理
 
+どこかに入れたい
+- イベント処理
+ - タッチイベント
+ - ジェスチャー
+- 通知パターン
+ - NSNOtification
+ - KVO
 
 # 宿題
 こちらへ→[HomeWork](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork)
