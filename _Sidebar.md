@@ -9,12 +9,17 @@
  2. [UITabController](https://github.com/mixi-inc/iOSTraining/wiki/2.2-UITabController)
  3. [Custom Container View Controller](https://github.com/mixi-inc/iOSTraining/wiki/2.3-Custom-Container-View-Controller)
  4. [Supporting Multiple Interface Orientations](https://github.com/mixi-inc/iOSTraining/wiki/2.4-Supporting-Multiple-Interface-Orientations)
-3. UIKit 2 - table view -
+3. UIKit 2- UIView -
+ 1. UIView
+ 2. UIView のカスタマイズ
+ 3. UIView Animation
+ 4. Core animation
+4. UIKit 3 - table view -
  1. UITableView について
  2. UITableViewDelegate, UITableViewDatasource について
  3. custom UITableViewCell の作成
  4. (iOS6) UIRefreshControl について
-4. UIKit 3 - images -
+5. UIKit 4 - images -
  1. UIImage (CoreGraphics)
  2. UIImageView
  3. Accets Library
@@ -27,10 +32,6 @@
  1. NSURLConnection (json シリアライザ)
  2. Blocks
  3. GCD
-7. View アニメーション、回転対応
- 1. View animation
- 2. Core animation
- 3. lotate
 8. ローカルキャッシュ
  1. UserDefaults
  2. FileManager
