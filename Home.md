@@ -58,6 +58,6 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
 - 通知パターン
  - NSNOtification
  - KVO
-
+- UIImage のところで ストレッチとかUIViewContentMode とかも話したい
 # 宿題
 こちらへ→[HomeWork](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork)
