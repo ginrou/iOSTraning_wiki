@@ -37,8 +37,9 @@ UIScrollViewは、自分のサイズより大きなsubviewの一部を切り出�
 上の例を実装することで、scrollViewの動作を確認してみましょう。
 リポジトリのHomewor/3.1k以下にある scrollViewSample を開くか、Xcodeから新しいプロジェクトをテンプレートをSingle View Applicationで開き、こちらの画像をプロジェクトに追加してください。
 
-画像のURL → あとで貼る
+画像のURL → [https://raw.github.com/mixi-inc/iOSTraining/master/HomeWorks/3.1/scrollViewSample/scrollViewSample/big_image.jpg](https://raw.github.com/mixi-inc/iOSTraining/master/HomeWorks/3.1/scrollViewSample/scrollViewSample/big_image.jpg)
 
+以下の手順をviewDidLoad内に書き進めて行ってください
 1. scroll view を貼る
   ``` 
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
@@ -46,6 +47,8 @@ UIScrollViewは、自分のサイズより大きなsubviewの一部を切り出�
   ```
   - scrollview の インスタンスを生成して、self.viewに追加します。
   - この時、scrollviewのframe(原点とサイズ)はself.viewと同じにします。そうすることで、画面全体にscrollviewを表示できます。
+  - この時点では実行しても何も表示されません
+
 2. imageViewの準備
   - 画像を扱うimageviewについては次回以降で触れるので、今回は以下のコードを使ってください。
 ```
@@ -53,9 +56,69 @@ UIScrollViewは、自分のサイズより大きなsubviewの一部を切り出�
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, image.size.width, image.size.height)];
     imageView.image = image;
 ```
+ - 画像の大きさ(800,600)と同じ大きさのimageViewを作っています
 
-### Tips : あれ？うまく動かないというときは
+3. imageViewをscrollviewに貼付ける
+  - 2.で準備したimageViewをscrollviewに貼付けます。
+```
+  [scrollView addSubview:imageView];
+```
+  - 以下のような状態になると思います。 しかし、まだスクロールはできないと思います。
+![https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/scrollview_1.png](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/scrollview_1.png)
+  - `scrollView.contentSize = imageView.frame.size` とすることでスクロールできるようになると思います。
+  - scrollviewに表示するコンテンツのサイズを教えないとスクロールできる領域が分からず、スクロールできないのでご注意ください。
+
+スクロール出来るとこんな感じに→ ![https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/scrollview_2.png](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/scrollview_2.png)
+
+4. 拡大縮小
+  - imageViewを拡大縮小するには次の三点を記述する必要があります
+     - 拡大する最大の倍率の指定
+     - 拡大する最小の倍率の指定
+     - UIScrollViewDelegateの準拠
+  - 倍率の指定はそれぞれ以下のように指定します
+```
+    scrollView.maximumZoomScale = 3.0; // 最大倍率
+    scrollView.minimumZoomScale = 0.5; // 最小倍率
+```
+  - delegateの準拠は以下の手順を踏みます
+     - ヘッダファイルの@interface部で `@interface ViewControllerの名前 : UIViewController <UIScrollViewDelegate>` としてScrollViewDelegateを準拠
+     - scrollViewを作った所(おそらくviewDidLoadだと思います)の中でdelegateをselfにセット
+```
+scrollView.delegate = self;
+```
+     - UIScrollViewDelegateのメソッドである`- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView ` の実装
+```
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    for (UIView *view in scrollView.subviews) {
+        if ([view isKindOfClass:[UIImageView class]]) {
+            return view;
+        }
+    }
+    return nil;
+}
+```
+このメソッドはscroll view がスケーリングしたときに、拡大or縮小するviewを返すメソッドです。
+今回は、画像を貼付けたimageViewを拡大したいので、UIImageViewのクラスのものを返します。
+  - 以上で拡大縮小もできるようになると思います。シミュレータ上でのピンチインアウトはoptionを押しながら画面上でカーソルを引っ張ると可能です:)
+
+めいっぱい縮小した図→![https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/scrollview_3.png](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/scrollview_3.png)
+
+### Tips : 
+- あれ？うまく動かないというときは
 - 画像が正しく表示されているか確認しましょう。意外とtypoしてたりします。
   - UIImage *image が nil でないことを確認する。画像ファイル名が間違っている時はnilになります。
   - `[self.view addSubview:imageView];` とすることでscrollviewに原因があるかを特定できます。画像が表示されたらscrollviewに原因があります。
 
+- インスタンスのクラスの確認方法
+  - [obj class] で Classを得ることができます。
+  - あるインスタンスがある特定のクラスか確認するには NSObjectのインスタンスメソッドにisKindOfClassがあります。
+    - `- (BOOL)isKindOfClass:(Class)aClass;`
+    - 例)` [string isKindOfClass:[NSString class]];`
+
+# まとめ
+scroll view を使う時のまとめ、注意点です
+
+
+
+# 課題
