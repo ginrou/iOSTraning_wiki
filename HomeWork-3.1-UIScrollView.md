@@ -9,3 +9,6 @@ iOSのViewに入りきらないViewを表示するためにviewの一部を切�
 - 写真アプリなどで画像を拡大縮小するとき
 
 などのシーンで使われます。
+
+公式ドキュメントはこちら
+[UIScrollView Class Reference](http://developer.apple.com/library/ios/#documentation/uikit/reference/UIScrollView_Class/Reference/UIScrollView.html)
