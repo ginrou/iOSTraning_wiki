@@ -118,7 +118,21 @@ scrollView.delegate = self;
 
 # まとめ
 scroll view を使う時のまとめ、注意点です
-
+- 画面をはみ出るコンテンツにはUIScrollViewを使う
+  - viewにscrollviewを張り、はみ出る大きなviewをscrollviewに貼る
+  - この階層構造が大切
+- スケーリングするときはコンテンツのサイズを scrollview.contentSize で指定する
+- 拡大縮小するときは、倍率とdelegateへの準拠が必要
 
 
 # 課題
+
+UIScrollViewにはさらにいくつかのオプションやメソッド、delegate method があります。それをふまえた課題です
+- 現在のscrollviewのコンテンツの位置をscrollする度にNSLogで出力してください
+- 起動時に、アニメーション付きで自動的にあるポジションへ移動させてください。
+- ステータスバー(上部の時計や電波強度を示すバー)をタップすると一番上にスクロールできるようにしてください
+
+**UIScrollViewについてはこちらをどうぞ**
+- [http://developer.apple.com/library/ios/#documentation/uikit/reference/UIScrollView_Class/Reference/UIScrollView.html#//apple_ref/occ/cl/UIScrollView](http://developer.apple.com/library/ios/#documentation/uikit/reference/UIScrollView_Class/Reference/UIScrollView.html#//apple_ref/occ/cl/UIScrollView)
+- [http://developer.apple.com/library/ios/#documentation/uikit/reference/uiscrollviewdelegate_protocol/Reference/UIScrollViewDelegate.html](http://developer.apple.com/library/ios/#documentation/uikit/reference/uiscrollviewdelegate_protocol/Reference/UIScrollViewDelegate.html)
+
