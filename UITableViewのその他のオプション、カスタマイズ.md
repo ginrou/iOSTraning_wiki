@@ -1,0 +1,4 @@
+- header
+- footer
+- refreshControll
+- EditModeの紹介
