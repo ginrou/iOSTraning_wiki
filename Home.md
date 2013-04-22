@@ -16,10 +16,9 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
  3. [Custom Container View Controller](https://github.com/mixi-inc/iOSTraining/wiki/2.3-Custom-Container-View-Controller)
  4. [Supporting Multiple Interface Orientations](https://github.com/mixi-inc/iOSTraining/wiki/2.4-Supporting-Multiple-Interface-Orientations)
 3. UIKit 2- UIView -
- 1. UIView
- 2. UIView のカスタマイズ
- 3. UIView Animation
- 4. Core animation
+ 1. [UIView](https://github.com/mixi-inc/iOSTraining/wiki/3.1-UIView)
+ 2. [UIView のカスタマイズ](https://github.com/mixi-inc/iOSTraining/wiki/3.2-UIView-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)
+ 3. [UIView Animation](https://github.com/mixi-inc/iOSTraining/wiki/3.3-UIView-Animation)
 4. UIKit 3 - table view -
  1. UITableView について
  2. UITableViewDelegate, UITableViewDatasource について
