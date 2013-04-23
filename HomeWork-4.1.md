@@ -2,7 +2,7 @@
 
 以下のように、テキストの量によって高さを変える tableView を作ってみましょう。
 
-「イメージ」
+![tableViewSample](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/4.1/tableViewSample.png)
 
 この課題では以下のことを調べてください。
 
@@ -10,7 +10,7 @@
 
 plist は apple が用いているデータの定義で、XML で記述されているファイルです。
 
-「イメージ」
+![plist](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/HomeWork/4.1/plist.png)
 
 sampleData.plist
 ```xml
