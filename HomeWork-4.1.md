@@ -35,5 +35,7 @@ sampleData.plist
 
 ## 文字列から高さを計算する
 ```objective-c
-(CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode
+- (CGSize)sizeWithFont:(UIFont *)font 
+     constrainedToSize:(CGSize)size 
+         lineBreakMode:(NSLineBreakMode)lineBreakMode;
 ```
