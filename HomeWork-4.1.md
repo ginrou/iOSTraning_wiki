@@ -33,3 +33,7 @@ sampleData.plist
 ```
 これを読み込んで NSArray オブジェクトを生成することが出来ます。どのように生成するか調べてみましょう。
 
+## 文字列から高さを計算する
+```objective-c
+(CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode
+```
