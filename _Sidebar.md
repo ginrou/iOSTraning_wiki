@@ -14,6 +14,7 @@
  4. [Supporting Multiple Interface Orientations](https://github.com/mixi-inc/iOSTraining/wiki/2.4-Supporting-Multiple-Interface-Orientations)
  5. [HomeWork 1 - タブバーからモーダルビューを表示する](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-2.1-%E3%82%BF%E3%83%96%E3%83%90%E3%83%BC%E3%81%8B%E3%82%89%E3%83%A2%E3%83%BC%E3%83%80%E3%83%AB%E3%83%93%E3%83%A5%E3%83%BC%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B)
  6. [HomeWork 2 - NavigationController](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-2.2-NavigationController)
+ 7. [HomeWork 2.3 デバイスことに回転対応](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-2.3-%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%93%E3%81%A8%E3%81%AB%E5%9B%9E%E8%BB%A2%E5%AF%BE%E5%BF%9C)
 3. UIKit 2- UIView -
  1. [UIView](https://github.com/mixi-inc/iOSTraining/wiki/3.1-UIView)
  2. [UIView のカスタマイズ](https://github.com/mixi-inc/iOSTraining/wiki/3.2-UIView-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)
