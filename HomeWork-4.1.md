@@ -39,3 +39,5 @@ sampleData.plist
      constrainedToSize:(CGSize)size 
          lineBreakMode:(NSLineBreakMode)lineBreakMode;
 ```
+
+constrainedToSize に強制的におさめたいサイズを指定するのがみそです。
