@@ -4,9 +4,6 @@
  3. [UIViewController1 - UIViewController のカスタマイズ ](https://github.com/mixi-inc/iOSTraining/wiki/1.3-UIViewController1---UIViewController-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA#wiki-UIVC_lifecycle)
  4. [UIViewController2 - ModalViewController](https://github.com/mixi-inc/iOSTraining/wiki/1.4-UIViewController2---ModalViewController)
  5. [UIViewController3 - ライフサイクル](https://github.com/mixi-inc/iOSTraining/wiki/1.5-UIViewController3---%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB)
- 6. [HomeWork 1 Objective C の基本文法](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-1.1-Objective-C-%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%96%87%E6%B3%95)
- 7. [HomeWork 2 UIViewControllerとModalViewController](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-1.2-UIViewController%E3%81%A8ModalViewController)
- 8. [HomeWork 3 UIViewController ＋ Animation](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-1.3-UIViewController-%EF%BC%8B-Animation)
 2. UIKit 1 - container, rotate-
  1. [UINavigationController](https://github.com/mixi-inc/iOSTraining/wiki/2.1-UINavigationController)
  2. [UITabController](https://github.com/mixi-inc/iOSTraining/wiki/2.2-UITabController)
