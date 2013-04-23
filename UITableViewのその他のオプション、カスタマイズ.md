@@ -120,7 +120,7 @@ tableviewのスタイルをgroupedにすると、より分かれて表示でき�
 ** // ふったとへっだを実装した図 **
 
 
-3. RefreshControll
+# 3. RefreshControll
 
 RefreshControllとは、引っぱり更新やPullToRefreshと呼ばれるアクションで、tableviewを一番上までスクロールしてさらに引っ張ることでデータを更新するUIです。
 
