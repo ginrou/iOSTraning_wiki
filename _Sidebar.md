@@ -29,7 +29,7 @@
 5. UIKit 4 - images -
  1. UIImagePickerController
  2. Accets Library
- 3. CoewGraphic
+ 3. CoreGraphic
  4. CoreImage
 5. UIKit 4 - text -
  1. UILabel
