@@ -31,27 +31,21 @@
  2. [Assets Library](https://github.com/mixi-inc/iOSTraining/wiki/5.2-Assets-Library)
  3. UITextFiled, UITextView
  4. KeybordNotification
-6. ネットワーク処理
- 1. [NSURLConnection](https://github.com/mixi-inc/iOSTraining/wiki/6.1-HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%AE%E5%9F%BA%E7%A4%8E)
- 2. [JSONのシリアライズとデシリアライズ](https://github.com/mixi-inc/iOSTraining/wiki/6.2-JSON%E3%81%AE%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA%E3%81%A8%E3%83%87%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA)
- 3. [UIWebView](https://github.com/mixi-inc/iOSTraining/wiki/6.3-UIWebView)
-7. ローカルキャッシュ
+6. 非同期処理系
+ 1. NSURLConnection (json シリアライザ)
+ 2. Blocks
+ 3. GCD
+8. ローカルキャッシュ
  1. UserDefaults
  2. FileManager
  3. CoreData
  4. SQLite
-8. 開発ツール
- 1. Instruments
-  1. leak
-  2. time profiler
- 2. CocoaPods
- 3. テスト
-  1. 単体テスト (GHUnit)
-  2. 結合テスト (KIF)
-9. Blocks, GCD
- 1. Blocks
- 2. GCD
-10. 設計とデザインパターン
-11. 実際に何かアプリを作ってみる(前編)
-12. 実際に何かアプリを作ってみる(後編)
+9. Instruments
+ 1. leak
+ 2. time profiler
+10. その他
+ 1. 単体テスト (GHUnit)
+ 2. 結合テスト (KIF)
+ 3. cocoaPods でライブラリ管理
+
 [edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
