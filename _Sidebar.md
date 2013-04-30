@@ -29,7 +29,7 @@
 5. UIKit 4 - image and text -
  1. [UIImagePickerController](https://github.com/mixi-inc/iOSTraining/wiki/5.1-UIImagePickerController)
  2. [Assets Library](https://github.com/mixi-inc/iOSTraining/wiki/5.2-Assets-Library)
- 3. UITextFiled, UITextView
+ 3. [UITextFiled, UITextView](https://github.com/mixi-inc/iOSTraining/wiki/5.3-UITextFiled,-UITextView)
  4. KeybordNotification
 6. 非同期処理系
  1. NSURLConnection (json シリアライザ)
