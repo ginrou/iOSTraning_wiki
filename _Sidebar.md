@@ -27,8 +27,8 @@
  4. [UITableViewのその他のオプション、カスタマイズ](https://github.com/mixi-inc/iOSTraining/wiki/4.4-UITableView%E3%81%AE%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%81%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)
  5. [HomeWork 1 - Dynamic height with a custom uitableviewcell](https://github.com/mixi-inc/iOSTraining/wiki/HomeWork-4.1-Dynamic-height-with-a-custom-uitableviewcell)
 5. UIKit 4 - images -
- 1. UIImagePickerController
- 2. Accets Library
+ 1. [https://github.com/mixi-inc/iOSTraining/wiki/5.1-UIImagePickerController](UIImagePickerController)
+ 2. [https://github.com/mixi-inc/iOSTraining/wiki/5.2-Assets-Library](Assets Library)
  3. CoreGraphic
  4. CoreImage
 5. UIKit 4 - text -
