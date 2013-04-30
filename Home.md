@@ -38,8 +38,9 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
  3. Accets Library
  4. CoreImage
 6. ネットワーク処理
- 1. NSURLConnection (json シリアライザ)
- 2. UIWebView
+ 1. [NSURLConnection](https://github.com/mixi-inc/iOSTraining/wiki/6.1-HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%AE%E5%9F%BA%E7%A4%8E)
+ 2. [JSONのシリアライズとデシリアライズ](https://github.com/mixi-inc/iOSTraining/wiki/6.2-JSON%E3%81%AE%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA%E3%81%A8%E3%83%87%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA)
+ 3. [UIWebView](https://github.com/mixi-inc/iOSTraining/wiki/6.3-UIWebView)
 7. ローカルキャッシュ
  1. UserDefaults
  2. FileManager
