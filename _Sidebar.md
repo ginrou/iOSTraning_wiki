@@ -31,25 +31,27 @@
  2. Accets Library
  3. CoreGraphic
  4. CoreImage
-5. UIKit 4 - text -
- 1. UILabel
- 2. UITextView
- 3. KeybordNotification
-6. 非同期処理系
+6. ネットワーク処理
  1. NSURLConnection (json シリアライザ)
- 2. Blocks
- 3. GCD
-8. ローカルキャッシュ
+ 2. UIWebView
+7. ローカルキャッシュ
  1. UserDefaults
  2. FileManager
  3. CoreData
  4. SQLite
-9. Instruments
- 1. leak
- 2. time profiler
-10. その他
- 1. 単体テスト (GHUnit)
- 2. 結合テスト (KIF)
- 3. cocoaPods でライブラリ管理
+8. 開発ツール
+ 1. Instruments
+   - leak
+   - time profiler
+ 2. CocoaPods
+ 3. テスト
+   - 単体テスト (GHUnit)
+   - 結合テスト (KIF)
+9. Blocks, GCD
+ 1. Blocks
+ 2. GCD
+10. 設計とデザインパターン
+11. 実際に何かアプリを作ってみる(前編)
+12. 実際に何かアプリを作ってみる(後編)
 
 [edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
