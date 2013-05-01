@@ -35,18 +35,19 @@
  1. [HTTPリクエストの基礎](https://github.com/mixi-inc/iOSTraining/wiki/6.1-HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%AE%E5%9F%BA%E7%A4%8E)
  2. [JSONのシリアライズとデシリアライズ](https://github.com/mixi-inc/iOSTraining/wiki/6.2-JSON%E3%81%AE%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA%E3%81%A8%E3%83%87%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA)
  3. [UIWebView](https://github.com/mixi-inc/iOSTraining/wiki/6.3-UIWebView)
-8. ローカルキャッシュと通知
+7. ローカルキャッシュと通知
  1. UserDefaults
  2. FileManager
  3. Keychain
  4. NSNotificationCenter
  5. Key Value Observing
-9. Instruments
- 1. leak
- 2. time profiler
-10. その他
+8. Blocks 
  1. 単体テスト (GHUnit)
  2. 結合テスト (KIF)
  3. cocoaPods でライブラリ管理
-
+9. Tools
+ 1. Instruments
+ 2. Cocoapods
+ 3. Test
+10. 設計、デザインパターン
 [edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
