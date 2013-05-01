@@ -41,10 +41,7 @@
  3. Keychain
  4. NSNotificationCenter
  5. Key Value Observing
-8. Blocks 
- 1. 単体テスト (GHUnit)
- 2. 結合テスト (KIF)
- 3. cocoaPods でライブラリ管理
+8. Blocks, GCD
 9. Tools
  1. Instruments
  2. Cocoapods
