@@ -47,4 +47,5 @@
  2. Cocoapods
  3. Test
 10. 設計、デザインパターン
+
 [edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
