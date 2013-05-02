@@ -53,8 +53,8 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
 8. 開発ツール
  1. Instruments (leak, time profiler)
  2. CocoaPods
- 3, 単体テスト (GHUnit, Kiwi)
- 4, 結合テスト (UIAutomation, KIF)
+ 3. 単体テスト (GHUnit, Kiwi)
+ 4. 結合テスト (UIAutomation, KIF)
 10. 設計とデザインパターン
 11. 実際に何かアプリを作ってみる(前編)
 12. 実際に何かアプリを作ってみる(後編)
