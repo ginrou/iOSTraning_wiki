@@ -44,14 +44,11 @@
 8. Blocks, GCD
  1. Blocks
  2. GCD
-8. 開発ツール
- 1. Instruments
-  1. leak
-  2. time profiler
+9. 開発ツール
+ 1. Instruments (leak, time profiler)
  2. CocoaPods
- 3. テスト
-  1. 単体テスト (GHUnit, Kiwi)
-  2. 結合テスト (KIF)
+ 3. 単体テスト (GHUnit, Kiwi)
+ 4. 結合テスト (UIAutomation, KIF)
 10. 設計とデザインパターン
 11. 実際に何かアプリを作ってみる(前編)
 12. 実際に何かアプリを作ってみる(後編)
