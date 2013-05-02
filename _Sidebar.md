@@ -31,8 +31,8 @@
  2. [Assets Library](https://github.com/mixi-inc/iOSTraining/wiki/5.2-Assets-Library)
  3. [UITextFiled, UITextView](https://github.com/mixi-inc/iOSTraining/wiki/5.3-UITextFiled,-UITextView)
  4. [KeyboardNotification](https://github.com/mixi-inc/iOSTraining/wiki/5.4-KeyboardNotification)
-6. 通信系
- 1. [HTTPリクエストの基礎](https://github.com/mixi-inc/iOSTraining/wiki/6.1-HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%AE%E5%9F%BA%E7%A4%8E)
+6. ネットワーク処理
+ 1. [NSURLConnection](https://github.com/mixi-inc/iOSTraining/wiki/6.1-HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%AE%E5%9F%BA%E7%A4%8E)
  2. [JSONのシリアライズとデシリアライズ](https://github.com/mixi-inc/iOSTraining/wiki/6.2-JSON%E3%81%AE%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA%E3%81%A8%E3%83%87%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA)
  3. [UIWebView](https://github.com/mixi-inc/iOSTraining/wiki/6.3-UIWebView)
 7. ローカルキャッシュと通知
@@ -42,10 +42,18 @@
  4. NSNotificationCenter
  5. Key Value Observing
 8. Blocks, GCD
-9. Tools
+ 1. Blocks
+ 2. GCD
+8. 開発ツール
  1. Instruments
- 2. Cocoapods
- 3. Test
-10. 設計、デザインパターン
+  1. leak
+  2. time profiler
+ 2. CocoaPods
+ 3. テスト
+  1. 単体テスト (GHUnit, Kiwi)
+  2. 結合テスト (KIF)
+10. 設計とデザインパターン
+11. 実際に何かアプリを作ってみる(前編)
+12. 実際に何かアプリを作ってみる(後編)
 
 [edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
