@@ -42,7 +42,6 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
  1. [NSURLConnection](https://github.com/mixi-inc/iOSTraining/wiki/6.1-HTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%AE%E5%9F%BA%E7%A4%8E)
  2. [JSONのシリアライズとデシリアライズ](https://github.com/mixi-inc/iOSTraining/wiki/6.2-JSON%E3%81%AE%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA%E3%81%A8%E3%83%87%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA)
  3. [UIWebView](https://github.com/mixi-inc/iOSTraining/wiki/6.3-UIWebView)
- 4. [演習](https://github.com/mixi-inc/iOSTraining/wiki/6.4-NSURLConnection%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E6%BC%94%E7%BF%92)
 7. ローカルキャッシュと通知
  1. UserDefaults
  2. FileManager
@@ -52,11 +51,16 @@ iOSアプリ開発の基礎知識と実務スキルを身に付けるトレー�
 8. Blocks, GCD
  1. Blocks
  2. GCD
-9. 開発ツール
- 1. Instruments (leak, time profiler)
+9. 設計とデザインパターン
+10. 開発ツール
+ 1. Instruments (leak, time profiler, and so on)
  2. CocoaPods
- 3. 単体テスト (GHUnit, Kiwi)
- 4. 結合テスト (UIAutomation, KIF)
-10. 設計とデザインパターン
-11. 実際に何かアプリを作ってみる(前編)
-12. 実際に何かアプリを作ってみる(後編)
+11. テスト
+ 1. GHUnit
+ 2. Kiwi
+ 3. UIAutomation
+ 4. KIF
+12. User Interface Design
+13. 付録
+ 1. [Tips of Xcode](https://github.com/mixi-inc/iOSTraining/wiki/Tips-of-Xcode)
+ 2. Tips of Debug
