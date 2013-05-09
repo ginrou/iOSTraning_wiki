@@ -4,7 +4,7 @@
 
 cmd + shift + o
 
-「イメージ」
+![open_quickly](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Xcode_tips/open_quickly.png)
 
 ## Reveal in Project Navigator
 
@@ -12,7 +12,7 @@ editor に表示しているファイルを左の project navigator 上で探索
 
 cmd + shift + j
 
-「イメージ」
+![reveal_in_project_navigator](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Xcode_tips/reveal_in_project_navigator.png)
 
 ## Version Editor
 
