@@ -37,11 +37,10 @@
  2. [JSONのシリアライズとデシリアライズ](https://github.com/mixi-inc/iOSTraining/wiki/6.2-JSON%E3%81%AE%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA%E3%81%A8%E3%83%87%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BA)
  3. [UIWebView](https://github.com/mixi-inc/iOSTraining/wiki/6.3-UIWebView)
 7. ローカルキャッシュと通知
- 1. UserDefaults
- 2. FileManager
- 3. Keychain
- 4. NSNotificationCenter
- 5. Key Value Observing
+ 1. [NSUserDefaults, Settings Bundle](https://github.com/mixi-inc/iOSTraining/wiki/7.1-NSUserDefaults,-Settings-Bundle)
+ 2. [NSFileManager](https://github.com/mixi-inc/iOSTraining/wiki/7.2-NSFileManager)
+ 3. [Key Value Observing](https://github.com/mixi-inc/iOSTraining/wiki/7.3-Key-Value-Observing)
+ 4. [NSNotification、NSNotificationCenter を用いた通知](https://github.com/mixi-inc/iOSTraining/wiki/7.4-NSNotification%E3%80%81NSNotificationCenter-%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E9%80%9A%E7%9F%A5)
 8. Blocks, GCD
  1. Blocks
  2. GCD
