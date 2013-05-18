@@ -46,6 +46,9 @@
  2. [GCD](https://github.com/mixi-inc/iOSTraining/wiki/8.2-Grand-Central-Dispatch)
  3. [【演習】GCD,-Blocksを用いたHTTPリクエストマネージャの作成](https://github.com/mixi-inc/iOSTraining/wiki/8.3-%E3%80%90%E6%BC%94%E7%BF%92%E3%80%91GCD,-Blocks%E3%82%92%E7%94%A8%E3%81%84%E3%81%9FHTTP%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%81%AE%E4%BD%9C%E6%88%90)
 9. 設計とデザインパターン
+ 1. [クラス設計 1](https://github.com/mixi-inc/iOSTraining/wiki/9.1-%E3%82%AF%E3%83%A9%E3%82%B9%E8%A8%AD%E8%A8%88-1)
+ 2. [クラス設計 2](https://github.com/mixi-inc/iOSTraining/wiki/9.2-%E3%82%AF%E3%83%A9%E3%82%B9%E8%A8%AD%E8%A8%88-2)
+ 3. [クラス設計演習] (https://github.com/mixi-inc/iOSTraining/wiki/9.3-%E3%82%AF%E3%83%A9%E3%82%B9%E8%A8%AD%E8%A8%88%E6%BC%94%E7%BF%92)
 10. 開発ツール
  1. Instruments (leak, time profiler, and so on)
  2. CocoaPods
