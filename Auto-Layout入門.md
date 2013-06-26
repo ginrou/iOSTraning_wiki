@@ -51,10 +51,91 @@ iOS/OSXのアプリケーションでUIパーツを配置するときにその�
 | Horizontal Center in Container | コンテナ(親ビュー)の中で縦方向の中心で揃える |
 | Vertical Center in Container | コンテナ(親ビュー)の中で横方向の中心で揃える |
 
+### 制約のサンプル
+
+実際に制約を追加する例を考えてみましょう。
+
+![制約のサンプル](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/constraint-sample.png)
+
+この図はあるViewの上に3つのUILabelを設置したサンプルです。
+左側にあるUILabelには二つの制約をつけています
+
+- Top Space To Super View (=20) 親ビューから高さ20の位置に上端を持ってくる
+- Top Space To Super View (=20) 親ビューの左端から幅20の位置にこのviewの左端を持ってくる
+
+また、右側にあるUILabel-2にも二つの制約をつけています
+
+- Horizontal Space (=20) もう片方のUILabelの右端とこのLabelの左端の間に20ピクセルのスペースを入れる
+- Bottom Alignment       もう片方のUILabelの下端とこのLabelの下端を揃えます
+
+下にあるUILabel-3は親ビューの終端位置(右端)から50ピクセルの幅をもつ制約を付け加えています。(実際には制約が破綻するので、下からの位置の制約もあります。)
+
+これを実行すると次のようになります。
+
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/demo1.png)
 
 
+画面を横に向けて、親ビューをリサイズしたときにUILabelとUILabel-2はともに左上に配置され、UILabel-3は右下に配置されています。
+これは右と下からの位置で制約があるためです。
+
+また、この制約の中でUILabelに文字を追加します。
+
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/demo2.png)
+
+UILabelの文字が増えて幅が広がります。それにあわせてUILabel-2も右にずれていきます。これは、UILabel-2の左端とUILabelの右端の間に常に20ピクセルの幅を持たせる制約があるためです。
+また、Auto LayoutではUILabelのようなサイズを可変で変えれる物は、コンテンツの内容(この場合だとlabel.text)に変化があったときに自動的にリサイズしてくれる設定があります。
+
+### Xcode上での設定
+
+Auto Layoutの制約をXcode上から設定する方法について紹介します。Xcode上からは二カ所で設定することができます。
+一つはInterface Builder上で、もう一つはメニューバーからです。
+
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/set-constraints1.png)
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/set-constraints2.png)
+
+設定した制約はInterface BuilderのDocument Outlineから確認することができます。
 
 
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/set-constraints3.png)
+
+widthやheightのようにあるview単体にかかってくる制約については、そのview以下に制約が追加されます。trailing spaceのようにview全体にかかってくる制約については、そのviewのConstraints以下にあります。
+
+viewを配置したり、制約を追加するとここにその制約が表示されます。このとき青と紫のアイコンがあると思いますが、青はユーザーが設定した制約、紫はInterface Builderが自動的に補完した制約となります。
+これは、制約をいくつか追加してもviewが一意に決められないといった場合に挿入されます。
+
+### どのように制約が適用されるか 2
+
+もう少し、制約が適用される例を紹介します。図のようにUIButtonを二つ並べて配置します。この時に以下のように制約を追加します。
+
+- Button Aと親ビューの左端
+- Button Bと親ビューの右端
+- Button A と Button B との間
+
+これだけの場合、横方向について、ボタンAとボタンBの幅が不定になります。そのためInterface Builderが
+
+- Button Aの幅
+
+という制約を追加します。
+
+これを実行すると、Portrait, Landscape の画面は次のようになります。
+
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/demo4.png)
+
+Landscapeにしたとき、画面全体の横幅が伸びます。しかし、マージンとボタンAの幅には制約があるため、制約のないボタンBの幅が拡大されます。
+
+では、ボタンBの幅をできるだけ伸ばすが最大でも200に設定したいときにどのような制約を追加すればよいでしょうか。
+Auto Layoutで加えることのできる制約には不等号も用いることができます。 `width ≦ 200`のような制約です。
+この制約で最大の幅を設定できますがこの場合、IBで設定した幅になります(Portrait時の幅)。そこでできるだけ伸ばすと言う制約を追加します。そのためには、固定値で幅を設定します(`width = 200`)。
+このときに 不等号の制約を等号の制約より強い優先度にします。こうすることで、幅を200以下に必ず抑えるがでその範囲内で幅を200に近づけるという制約を作ることが出来ます。
+ボタンBと親ビューの右端を20以上にするという制約を追加することで所望の動作を実現することができます。
+
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/demo5.png)
+![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/demo6.png)
+
+
+### Auto Layoutを使う時の注意点
+Auto Layoutは表現力があり強力ですが、いくつか利用する上で注意しないとならない点があります。
+たとえば、一度配置した後にレイアウトを変更したときにその変更が反映されないということです。具体的には、パーツを配置した後にview.frameを変更する場合にそのレイアウト変更に対して制約は維持されません。bottom edges で整列させたいくつかのボタンのうち、一つをアニメーションさせたときに他のボタンはアニメーションせずにその場にとどまったままです。
 
 
 
