@@ -132,6 +132,7 @@ Auto Layoutで加えることのできる制約には不等号も用いること
 ![DEMO](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Studying-Auto-Layout/demo5.png)
 
 **制約(優先度の強い順)**
+
 1. ボタンの最大幅を設定 ( ≦ 200 )
 2. ボタンと親ビューのtrailing spaceを設定 ( ≧ 20 )
 3. ボタンの幅を設定 ( = 200 )
