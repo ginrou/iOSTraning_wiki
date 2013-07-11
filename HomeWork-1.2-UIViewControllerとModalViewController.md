@@ -21,8 +21,6 @@ dismissViewControllerにはcompletitionBlockという引数があります。
 この引数には、モーダルが閉じきった時に実行するクロージャ(Blocks)を渡します。Blocksについては、また後日解説がありますが、
 「完了時に実行したい処理」を書けば問題ありません。
 
-ヒント ブロックの記述　^{ NSLog(@"Test");}
-
 ### 目的
 - UIViewControllerを作れるようになる
 - ModalViewを表示させることができるようになる
