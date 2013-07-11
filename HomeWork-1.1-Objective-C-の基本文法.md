@@ -161,4 +161,4 @@ NSMutableArrayを用いて、キューを実現するクラス TestQueue と ス
 目的：クラスの作り方について学ぶ
 
 時間があれば:優先度付きキューを作ってみてください
-[優先度付キュー参考](https://github.com/jessedc/JCPriorityQueue/tree/experimental/heap-queue)
+[参考プロジェクト](https://github.com/jessedc/JCPriorityQueue/tree/experimental/heap-queue)
