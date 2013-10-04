@@ -63,4 +63,4 @@
  1. [Tips of Xcode](https://github.com/mixi-inc/iOSTraining/wiki/Tips-of-Xcode)
  2. [Auto Layout 入門](https://github.com/mixi-inc/iOSTraining/wiki/Auto-Layout%E5%85%A5%E9%96%80)
 
-[edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
+[Edit sidebar](https://github.com/mixi-inc/iOSTraining/wiki/_Sidebar/_edit)
