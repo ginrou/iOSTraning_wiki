@@ -24,6 +24,6 @@ cmd + shift + j
 - インデントが崩れたので綺麗にしたい！
 - gitの差分見たら、行末にスペースが残ってた！
 
-とかのときに整形してくれます。^I  ( control + shift + i )です。
+とかのときに整形してくれます。^I  ( control + i )です。
 
 ![re_indent](https://raw.github.com/mixi-inc/iOSTraining/master/Doc/Images/Xcode_tips/re-indent.png)
